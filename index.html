@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalyan Kumar S. | Python Developer | Web Developer</title>
+  <meta name="description" content="Portfolio of Kalyan Kumar S., a Computer Science Engineering student and aspiring Python and Web Developer." />
+  <meta name="author" content="Kalyan Kumar S." />
+  <meta name="theme-color" content="#070b16" />
+  <meta property="og:title" content="Kalyan Kumar S. | Python Developer | Web Developer" />
+  <meta property="og:description" content="Portfolio of Kalyan Kumar S., a Computer Science Engineering student and aspiring Python and Web Developer." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23070b16'/%3E%3Ctext x='50' y='70' font-size='60' fill='%236366f1' font-family='monospace' font-weight='bold' text-anchor='middle'%3EK%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- CSS is connected here -->
+  <link rel="stylesheet" href="style.css" />
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <a class="skip-link" href="#about">Skip to content</a>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="#home" class="nav-logo">KALYAN KUMAR S.</a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+  <div class="nav-backdrop" id="navBackdrop"></div>
+
+  <main>
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="grid-overlay"></div>
+      </div>
+
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-greeting reveal">Hello, I'm</p>
+          <h1 class="hero-title reveal">KALYAN KUMAR S.</h1>
+          <h2 class="hero-subtitle reveal">Computer Science Engineering Student</h2>
+          <p class="hero-role reveal">
+            <span class="role-prompt" aria-hidden="true">&gt;</span>
+            <!-- JS types this line; the full text is the fallback if JS is off -->
+            <span class="typed-text" id="typedText">Python Developer | Web Developer</span><span class="cursor" aria-hidden="true"></span>
+          </p>
+          <p class="hero-description reveal">
+            Computer Science Engineering student seeking an entry-level opportunity to apply
+            programming and web development skills, contribute to real-world software projects,
+            and continuously develop technical knowledge in a professional environment.
+          </p>
+
+          <div class="hero-buttons reveal">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <!-- RESUME: place your PDF at assets/KALYAN-KUMAR-RESUME.pdf -->
+            <a href="assets/KALYAN-KUMAR-RESUME.pdf" download="KALYAN-KUMAR-RESUME.pdf" class="btn btn-outline" data-resume>Download Resume</a>
+          </div>
+
+          <div class="hero-socials reveal">
+            <a href="https://github.com/kalyan2510" target="_blank" rel="noopener noreferrer" class="social-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/kalyan-kumar-s-2851b332b" target="_blank" rel="noopener noreferrer" class="social-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <!-- PROFILE PHOTO: replace assets/profile.jpg with your own photo (same file name) -->
+        <div class="hero-visual reveal">
+          <div class="profile-frame">
+            <div class="profile-glow" aria-hidden="true"></div>
+            <div class="profile-ring" aria-hidden="true"></div>
+            <div class="profile-circle">
+              <img src="assets/profile.jpg" alt="Portrait of Kalyan Kumar S." id="profileImg" class="profile-img" width="400" height="400" />
+              <!-- Shown only if assets/profile.jpg is missing -->
+              <div class="profile-placeholder" id="profilePlaceholder" hidden>
+                <span>KK</span>
+                <small>Add your photo at<br />assets/profile.jpg</small>
+              </div>
+            </div>
+
+            <span class="float-chip chip-1" aria-hidden="true">&lt;/&gt;</span>
+            <span class="float-chip chip-2" aria-hidden="true">Python</span>
+            <span class="float-chip chip-3" aria-hidden="true">{ }</span>
+            <span class="float-chip chip-4" aria-hidden="true">JS</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-down" aria-label="Scroll down to About section">
+        <span class="mouse"><span class="wheel"></span></span>
+      </a>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Get To Know Me</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm a Computer Science Engineering student seeking an entry-level opportunity
+              to apply my programming and web development skills.
+            </p>
+            <p>
+              I want to contribute to real-world software projects and continuously develop my
+              technical knowledge in a professional environment.
+            </p>
+          </div>
+
+          <aside class="info-card glass reveal" aria-label="Quick information">
+            <ul class="info-list">
+              <li><span class="info-label">Name</span><span class="info-value">Kalyan Kumar S.</span></li>
+              <li><span class="info-label">Degree</span><span class="info-value">B.E. Computer Science and Engineering</span></li>
+              <li><span class="info-label">College</span><span class="info-value">Mailam Engineering College</span></li>
+              <li><span class="info-label">CGPA</span><span class="info-value">7.72</span></li>
+              <li><span class="info-label">Location</span><span class="info-value">Villupuram, Tamil Nadu</span></li>
+            </ul>
+          </aside>
+        </div>
+
+        <!-- Soft skills -->
+        <div class="subsection">
+          <h3 class="subsection-title reveal">Soft Skills</h3>
+          <div class="soft-grid stagger">
+            <div class="soft-card glass reveal">
+              <div class="soft-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h4>Teamwork &amp; Collaboration</h4>
+            </div>
+            <div class="soft-card glass reveal">
+              <div class="soft-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.3h6c0-1 .4-1.8 1-2.3A7 7 0 0 0 12 2z"/></svg>
+              </div>
+              <h4>Problem Solving</h4>
+            </div>
+            <div class="soft-card glass reveal">
+              <div class="soft-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+              </div>
+              <h4>Adaptability</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="subsection">
+          <h3 class="subsection-title reveal">Languages</h3>
+          <div class="lang-row reveal">
+            <span class="lang-pill glass">Tamil</span>
+            <span class="lang-pill glass">English</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS ==================== -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">What I Work With</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+        </div>
+
+        <div class="skills-grid stagger">
+          <div class="skill-card glass reveal">
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg></div>
+            <h3>Python</h3>
+          </div>
+          <div class="skill-card glass reveal">
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+            <h3>HTML</h3>
+          </div>
+          <div class="skill-card glass reveal">
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg></div>
+            <h3>CSS</h3>
+          </div>
+          <div class="skill-card glass reveal">
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5a2 2 0 0 0 2 2h1"/><path d="M16 21h1a2 2 0 0 0 2-2v-5a2 2 0 0 1 2-2 2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"/></svg></div>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill-card glass reveal">
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div>
+            <h3>MongoDB</h3>
+          </div>
+          <div class="skill-card glass reveal">
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></div>
+            <h3>UI Design</h3>
+          </div>
+          <div class="skill-card glass reveal">
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></div>
+            <h3>Full Stack Development</h3>
+          </div>
+          <div class="skill-card glass reveal skill-learning">
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            <h3>Software Testing</h3>
+            <span class="learning-badge">Currently Learning</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">My Work</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        </div>
+
+        <div class="projects-grid stagger">
+          <!-- Project 1 -->
+          <article class="project-card glass reveal">
+            <div class="project-banner banner-1" aria-hidden="true">
+              <span class="project-number">01</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/></svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">ParkHaven – Smart Parking Management System</h3>
+              <ul class="project-points">
+                <li>Developed a smart parking platform designed to help users find and book available parking spaces.</li>
+                <li>Worked as part of a team to plan and develop the project workflow and user-facing features.</li>
+                <li>Focused on organizing parking-space information to make the booking process easier for users.</li>
+              </ul>
+              <div class="project-actions">
+                <!-- No public URL available, so no fake link is shown -->
+                <button type="button" class="btn btn-card" data-project="parkhaven">Project Details</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card glass reveal">
+            <div class="project-banner banner-2" aria-hidden="true">
+              <span class="project-number">02</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M12 8v8M8 12h8"/></svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Hospital Management System</h3>
+              <ul class="project-points">
+                <li>Developed a web-based hospital management project using HTML, CSS and JavaScript.</li>
+                <li>Designed user-friendly pages and interfaces for organizing hospital-related information.</li>
+                <li>Implemented front-end interactions and page functionality using JavaScript.</li>
+                <li>Focused on clean UI design, structured pages and practical workflow.</li>
+              </ul>
+              <div class="project-tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <button type="button" class="btn btn-card" data-project="hospital">Project Details</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CERTIFICATIONS ==================== -->
+    <section class="section section-alt" id="certifications">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Achievements</span>
+          <h2 class="section-title">Certi<span class="gradient-text">fications</span></h2>
+        </div>
+
+        <div class="certs-grid stagger">
+          <article class="cert-card glass reveal">
+            <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+            <h3>IBM Certificate</h3>
+          </article>
+          <article class="cert-card glass reveal">
+            <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+            <h3>MongoDB Certificate</h3>
+          </article>
+          <article class="cert-card glass reveal">
+            <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+            <h3>Oracle Cloud Infrastructure 2025 Certified AI Foundation Associate</h3>
+          </article>
+          <article class="cert-card glass reveal">
+            <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+            <h3>Getting Started with Artificial Intelligence - IBM Skill Build</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION ==================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">My Journey</span>
+          <h2 class="section-title">Edu<span class="gradient-text">cation</span></h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card glass">
+              <span class="timeline-date">2024–Present</span>
+              <h3>B.E. Computer Science and Engineering</h3>
+              <p class="timeline-place">Mailam Engineering College, Mailam</p>
+              <span class="score-badge">CGPA: 7.72</span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card glass">
+              <span class="timeline-date">2022</span>
+              <h3>SSLC – State Board</h3>
+              <p class="timeline-place">PSB Polytechnic College, Kelambakkam</p>
+              <span class="score-badge">76%</span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card glass">
+              <span class="timeline-date">2019</span>
+              <h3>HSE – State Board</h3>
+              <p class="timeline-place">Buvana Krishna Matric Hr. Sec. School, Kelambakkam</p>
+              <span class="score-badge">45.6%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+        </div>
+
+        <div class="contact-grid stagger">
+          <a href="mailto:kalyankumar71722@gmail.com" class="contact-card glass reveal">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">kalyankumar71722@gmail.com</span>
+          </a>
+          <a href="tel:+917904136537" class="contact-card glass reveal">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">7904136537</span>
+          </a>
+          <div class="contact-card glass reveal">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <span class="contact-label">Location</span>
+            <span class="contact-value">Villupuram, Tamil Nadu</span>
+          </div>
+          <a href="https://github.com/kalyan2510" target="_blank" rel="noopener noreferrer" class="contact-card glass reveal">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></div>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/kalyan2510</span>
+          </a>
+          <a href="https://linkedin.com/in/kalyan-kumar-s-2851b332b" target="_blank" rel="noopener noreferrer" class="contact-card glass reveal">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></div>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/kalyan-kumar-s-2851b332b</span>
+          </a>
+        </div>
+
+        <div class="contact-cta reveal">
+          <a href="mailto:kalyankumar71722@gmail.com" class="btn btn-primary">Email Me</a>
+          <a href="https://linkedin.com/in/kalyan-kumar-s-2851b332b" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Connect on LinkedIn</a>
+          <a href="https://github.com/kalyan2510" target="_blank" rel="noopener noreferrer" class="btn btn-outline">View GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <h3 class="footer-name">KALYAN KUMAR S.</h3>
+      <p class="footer-tagline">Computer Science Engineering Student | Python Developer | Web Developer</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/kalyan2510" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/kalyan-kumar-s-2851b332b" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="mailto:kalyankumar71722@gmail.com">Email</a></li>
+      </ul>
+      <p class="footer-copy">© 2026 Kalyan Kumar S. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ==================== BACK TO TOP ==================== -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- ==================== PROJECT DETAILS MODAL ==================== -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal glass">
+      <button type="button" class="modal-close" id="modalClose" aria-label="Close project details">&times;</button>
+      <h3 id="modalTitle"></h3>
+      <ul class="modal-list" id="modalList"></ul>
+      <div class="modal-actions" id="modalActions"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- JavaScript is connected here -->
+  <script src="script.js"></script>
+</body>
+</html>
